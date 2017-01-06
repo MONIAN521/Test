@@ -1,0 +1,22 @@
+*{margin: 0;
+padding: 0;
+}
+#main{
+	position: relative;
+}
+.box{
+	/*推荐padding而不用margin在js中offset.height获取盒子高度，盒子与盒子的高的，它只可以获取padding*/
+	padding :15px 0 0 15px;
+	float: left;
+}
+.pic{
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc;
+}
+.pic img{
+	width: 165px;
+	height: auto;
+}
+
